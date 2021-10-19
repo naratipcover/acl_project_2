@@ -1,0 +1,31 @@
+footer{
+    margin-top: 3.5rem;
+    color: white;
+    background-color: #2E3192;
+    text-decoration: none;
+}
+
+.footer-copyright.text-center.py-3 {
+    background-color: #4447a7;
+}
+
+.logo-footer{
+    display: flex;
+}
+
+
+a#text-footer {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a#text-footer:hover {
+    color: rgba(255, 255, 255, 0.61);
+}
+
+@media screen and (max-width: 768px ) and (min-width: 600px)  {
+    .footer-tab {
+        width: 12rem;
+    }
+   }

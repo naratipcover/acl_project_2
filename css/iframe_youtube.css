@@ -1,0 +1,49 @@
+.iframe-container{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-youtube{
+    width: 100%;
+    height: auto;
+    background-color: #2E3192;
+    padding: 2rem 0 2rem 0; 
+    margin-top: 1rem;
+}
+
+.text-y{
+    font-size: 15px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .bg-youtube{
+        width: 100%;
+        height: auto;
+        background-color: #2E3192;
+        padding: 2rem 0 2rem 0; 
+        margin-top: 2.5rem;
+    }
+
+    div#youtube {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iframe-container{
+       margin-top: 2rem;
+    }
+}

@@ -1,0 +1,41 @@
+
+.row-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column-logo{
+    margin: 1rem;
+    max-width: 75px ;
+    max-height: 75px;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-list {
+    /* border-bottom: 1px solid #ddd; */
+}
+.logo-list img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+.logo-list img:hover {
+    filter: none;
+    transform: scale(1.2);
+
+}
+
+@media screen and (max-width: 768px) {
+    .column-logo{
+        margin:0;
+        padding: 2.5px;
+        max-width: 75px ;
+        max-height: 75px;
+        width: 100%;
+        height: 100%;
+    }
+ }
+ 

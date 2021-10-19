@@ -1,0 +1,108 @@
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0rem;
+    background-color: #f8f9fa;
+  }
+
+
+.nav-link{
+  color: #2E3192;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.text-logo{
+  color: #2E3192;
+  
+}
+
+@media screen and (min-width: 978px) {
+   .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .text-logo{
+   color: #2E3192;
+   font-size: 12px;
+
+ }
+}
+ 
+
+.dropdown-menu{
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.dropdown-item {
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.animate{
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideDown{
+
+  0%{
+    transform: scaleY(0);
+    transform-origin: center top 0;
+  }
+  100%{
+    transform: scaleY(1);
+    transform-origin: center top 0;
+  }
+}
+
+@-webkit-keyframes slideDown{
+
+  0%{
+    transform: scaleY(0);
+    transform-origin: center top 0;
+  }
+  100%{
+    transform: scaleY(1);
+    transform-origin: center top 0;
+  }
+}
+
+.slideDown {
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+}
+
+.nav-item:hover{
+  border-bottom: 5 solid #2E3192;
+  transition: all 0.3s ease-in-out;
+} 
+
+
+
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
