@@ -1,20 +1,44 @@
+
+nav{
+  background-color: #333366;
+  padding: 20px;
+}
 .navbar{
     padding-top: 0;
     padding-bottom: 0rem;
-    background-color: #f8f9fa;
   }
 
 
-.nav-link{
-  color: #2E3192;
-  font-weight: bold;
+.nav-text-menu{
+  color: white;
+  /* font-weight: bold; */
   transition: 0.5s;
 }
 
+.nav-text-menu:hover{
+  color:  rgba(255, 255, 255, 0.61);
+}
+
 .text-logo{
-  color: #2E3192;
+  color: white;
   
 }
+
+.nav-item:hover{
+  color: rgba(255, 255, 255, 0.61);
+}
+
+.sreach-navbar{
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.button-sreach-navber{
+  margin-left: 2px;
+  color: white;
+  border: 0 solid white;
+}
+
+
 
 @media screen and (min-width: 978px) {
    .dropdown:hover .dropdown-menu {
@@ -24,10 +48,19 @@
 
 @media screen and (max-width: 600px) {
  .text-logo{
-   color: #2E3192;
-   font-size: 12px;
+   color: w;
+   font-size: 9px;
 
  }
+ .sreach-navbar{
+  padding: 0 ;
+}
+}
+
+@media screen and (max-width: 768px) {
+ .sreach-navbar{
+  padding: 0 ;
+}
 }
  
 
@@ -76,7 +109,7 @@
 }
 
 .nav-item:hover{
-  border-bottom: 5 solid #2E3192;
+  border-bottom: 5 solid #333366;
   transition: all 0.3s ease-in-out;
 } 
 
@@ -105,4 +138,8 @@
   text-align: center;
   pointer-events: none;
   color: #aaa;
+}
+
+.row-sreach{
+  display: flex;
 }

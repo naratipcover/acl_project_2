@@ -31,13 +31,13 @@ div#v-pills-tab {
 .see-more{
     padding: 10px;
     text-decoration: none;
-    color: #2E3192;
+    color: #333366;
     transition: 0.5s;
 }
 
 .see-more:hover{
     padding-left: 40px;
-    color: #2E3192;
+    color: #333366;
 }
 
 ul#pills-tab {
@@ -45,7 +45,20 @@ ul#pills-tab {
 }
 /* end photo and video */
 
-@media screen and (max-width: 768px) {
+.tab-content-menu{
+    width: 12.7rem;
+    height: 10rem;
+    font-weight: bold;
+    background-color: #333366;
+}
+
+.image-tab{
+    width: 60px;
+    height: 60px;
+    margin:  12px 0 12px 0;
+}
+
+@media screen and (max-width: 1024px) {
     .d-flex.align-items-start{
         display: flex;
         flex-direction: column;
@@ -64,5 +77,45 @@ ul#pills-tab {
     .swis-video{
         padding: 0;
     }
+
+    .tab-container{
+        display: flex;
+        justify-content: center;
+    }
+    .tab-content-menu{
+        font-size: 9px;
+        width: 8rem;
+        height: 8rem;
+        background-color: #333366;
+        /* color: #333366; */
+    }
+
+    .image-tab{
+        
+        width: 50px;
+        height: 50px;
+        /* margin:  12px 0 12px 0; */
+    }
     
 }
+
+@media screen and (max-width: 600px) {
+    .tab-content-menu{
+        font-weight: bold;
+        font-size: 7px;
+        width: 4.2rem;
+        height: 6rem;
+        background-color: #333366;
+        color: #333366;
+    }
+
+    .image-tab{
+        
+        width: 35px;
+        height: 35px;
+        /* margin:  12px 0 12px 0; */
+    }
+}
+
+
+
