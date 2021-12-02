@@ -1,0 +1,26 @@
+.container-head1{
+    margin: 2rem 0 1.5rem 0; 
+    color: white;
+}
+
+.head-content1{
+    background-color: #333366; 
+    padding: 1rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .head-content1{
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .head-content1{
+        font-size: 12px;
+    }
+}

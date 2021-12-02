@@ -1,0 +1,17 @@
+.card-content{
+    transition: 0.5s;
+}
+
+.card-content:hover{
+    box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+}
+
+.image-content{
+    transition: 0.5s;
+}
+
+.image-content:hover{
+    opacity: 0.4;
+}

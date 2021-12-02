@@ -46,6 +46,7 @@ ul#pills-tab {
 /* end photo and video */
 
 .tab-content-menu{
+    font-size: 20px;
     width: 12.7rem;
     height: 10rem;
     font-weight: bold;
@@ -83,7 +84,7 @@ ul#pills-tab {
         justify-content: center;
     }
     .tab-content-menu{
-        font-size: 9px;
+        font-size: 15px;
         width: 8rem;
         height: 8rem;
         background-color: #333366;
@@ -98,6 +99,7 @@ ul#pills-tab {
     }
     
 }
+
 
 @media screen and (max-width: 600px) {
     .tab-content-menu{
