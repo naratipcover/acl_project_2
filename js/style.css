@@ -1,0 +1,149 @@
+/* body{
+	margin:0;
+	font-family: sans-serif;
+	background-color: #efefef;
+}
+*{
+	box-sizing: border-box;
+} */
+
+/* .container{
+	max-width: 1000px;
+	margin: auto;
+} */
+/* .gallery{
+	width: 100%;
+	float: left;
+	padding:30px 15px;
+}
+.gallery .title h1{
+	font-size:36px;
+	margin:0 0 30px;
+	color:#000000;
+	text-align: center;
+} */
+.gallery .gallery-items .item{
+	/* float: left; */
+	/* width:25%; */
+	position: relative;
+}
+.gallery .gallery-items .item.hide{
+	display: none;
+}
+.gallery .gallery-items .item.show{
+	display: block;
+	animation: show .5s ease;
+}
+@keyframes show{
+    0%{
+    	opacity:0;
+    	transform: scale(0.9);
+    }
+    100%{
+    	opacity:1;
+    	transform: scale(1);
+    }
+}
+
+
+.gallery .gallery-items .item img{
+	width: 100%;
+	display: block;
+}
+/* /* .gallery .gallery-items .item .caption{
+	position: absolute;
+	left:0px;
+	bottom:0;
+	background-color: rgba(0,0,0,.5);
+	padding:10px;
+	width: 100%;
+	color:#ffffff;
+	text-align: center;
+} */
+.pagination{
+	margin-top: 0.5rem;
+	display: flex;
+    justify-content: center;
+} 
+
+.gallery .pagination div{
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	margin: 1.5rem;
+	padding: 10px;
+}
+.gallery .pagination .page{
+	color:#333366;
+}
+
+.gallery .pagination .prev,.gallery .pagination .next{
+ background-color: white;
+ color: #333366;
+ border:3px solid #333366;
+ font-size:18px;
+ padding:9px 19px;
+ cursor: pointer;
+ transition: 0.8s;
+}
+
+.gallery .pagination .prev:hover,.gallery .pagination .next:hover{
+	background-color: #333366;
+	color: white;
+	border:3px solid #333366;
+	font-size: 18px;
+	padding:9px 19px;
+	cursor: pointer;
+}
+
+.gallery .pagination .prev.disabled,
+.gallery .pagination .next.disabled{
+	border-color: #737373;
+	color:#737373;
+	pointer-events: none;
+}
+
+
+@media screen and (max-width: 600px) {
+	.pagination{
+		margin-top: 0.5rem;
+		font-size: 6px;
+		display: flex;
+		justify-content: center;
+	} 
+	.gallery .pagination .page{
+		color:#333366;
+		font-size: 15px;
+	}
+
+	.gallery .pagination .prev:hover ,.gallery .pagination .next:hover{
+		background-color: white;
+		color: #333366;
+		border:3px solid #333366;
+		font-size: 10px;
+		padding:10px;
+		cursor: pointer;
+	   }
+
+	   .gallery .pagination .prev,.gallery .pagination .next{
+		background-color: white;
+		color: #333366;
+		border:3px solid #333366;
+		font-size: 10px;
+		padding:10px;
+		cursor: pointer;
+	   }
+	   
+	
+	.gallery .pagination .prev.disabled,
+	.gallery .pagination .next.disabled{
+		border-color: #737373;
+		color:#737373;
+		pointer-events: none;
+	}
+}
+
+
+
+
+
