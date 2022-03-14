@@ -1,0 +1,78 @@
+.image-link{
+    transition: 0.5s;
+}
+
+.image-link:hover{
+    opacity: 0.4;
+}
+
+.image-size{
+    height: 276px;
+}
+
+
+
+.icon-head{
+       width: 100px; 
+       height: 100px;
+       margin-top: 1.8rem;
+}
+
+.head-card{
+    color: #282897;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .image-size{
+        height: 180px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .icon-head{
+        width: 80px; 
+        height: 80px;
+        margin-top: 1.8rem;
+    }
+}
+
+
+
+.thead-color{
+    background-color: #333366; 
+    color: white;
+
+}
+
+
+
+td.class-room a{
+    color: #737373b2;
+    text-decoration:none;
+    transition: 0.25s;
+}
+
+td.class-room a:hover{
+    color: #333366;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.not-class-room{
+    color: #737373b2;
+    text-decoration:none;
+    transition: 0.25s;
+    margin-left: 1.15rem;
+}
+
+/* .not-class-room:hover{
+    color: #737373b2;
+    text-decoration:none;
+    transition: 0.25s;
+    margin-left: 0.95rem;
+} */
+
+
+

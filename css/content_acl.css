@@ -1,0 +1,153 @@
+.text-head-content-acl{
+    font-size: 40px; 
+    color: #333366;  
+    border-top: 3px solid #333366; 
+    border-bottom: 3px solid #333366; 
+}
+
+.section .box-information {
+    /* height: 115px; */
+    /* border: 1px solid #dbdbdb; */
+    /* margin-bottom: 30px; */
+    
+}
+
+.section .box-information a {
+    color: #333366;
+    /* font-size: 21px; */
+    /* font-weight: 600;
+    line-height: 29px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    position: relative;
+    border-bottom: 4px solid #333366;
+    transition: all .5s ;
+}
+
+.section .box-information a:hover {
+    transition: all,.5s;
+    background: #333366;
+    color: #fff;
+    text-decoration: none;
+}
+
+.section .box-information .image img {
+    width: 75px;
+    height: 75px;
+    /* -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px; */
+}
+
+.section .box-information .text .small {
+    font-size: 60%;
+}
+
+/* Media Queries */
+
+@media (min-width: 1230px) {
+.section .container {
+    max-width: 1100px;
+    }
+}    
+
+@media (min-width: 992px) {
+.section .box-information {
+    margin: 0 5px 30px;
+    }
+}  
+
+@media (max-width: 768px) {
+    .section .box-information .text {
+        margin-left: 0.5rem;
+    }
+
+    .section .box-information {
+        height: 120px;
+    }
+
+    span.small {
+        line-height: 20px;
+    }
+
+    .text-head-content-acl{
+        margin-top: 3rem;
+        font-size: 35px; 
+        color: #333366;  
+        border-top: 2px solid #333366; 
+        border-bottom: 2px solid #333366; 
+    }
+}  
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+.row-content-acl{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column-content-acl{
+    /* margin: 1rem;
+    max-width: 75px ;
+    max-height: 75px;
+    width: 100%;
+    height: 100%; */
+}
+
+.content-acl{
+    margin: 0.5rem;
+    width: 160px ;
+    height: 100px;
+;
+}
+
+
+/* .content-acl-list img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+.content-acl-list img:hover {
+    filter: none;
+    transform: scale(1.2);
+
+} */
+
+@media screen and (max-width: 768px) {
+    .content-acl{
+        margin:0;
+        padding: 2.5px;
+       width: 160px ;
+        height: 100px;
+    }
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
