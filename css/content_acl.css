@@ -110,9 +110,18 @@
 
 .content-acl{
     margin: 0.5rem;
-    width: 160px ;
-    height: 100px;
+    width: 140px ;
+    height: 140px;
 ;
+}
+
+img.col.content-acl{
+    transition: all 0.3s ease-in-out;
+}
+
+img.col.content-acl:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -132,8 +141,8 @@
     .content-acl{
         margin:0;
         padding: 2.5px;
-       width: 160px ;
-        height: 100px;
+       width: 100px ;
+        height: 120px;
     }
  }
  

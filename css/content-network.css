@@ -1,9 +1,12 @@
 a#content-network {
+    color: rgb(139, 138, 138);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 
 
 a#content-network:hover {
-    filter: blur(1.5px);
+    color: white;
+    box-shadow: #333366 0px -50px 36px -28px inset;
+    transition: all 0.3s ease-in-out;
 }
