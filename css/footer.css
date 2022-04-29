@@ -13,6 +13,9 @@ footer{
     display: flex;
 }
 
+.text-footer-acl{
+    font-size: 15px;
+}
 
 a#text-footer {
     color: white;
@@ -28,4 +31,11 @@ a#text-footer:hover {
     .footer-tab {
         width: 12rem;
     }
+
    }
+
+   @media only screen and (max-width: 600px) {
+    .text-footer-acl{
+        font-size: 8px;
+    }
+  }
